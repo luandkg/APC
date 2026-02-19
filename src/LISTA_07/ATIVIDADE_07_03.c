@@ -5,7 +5,7 @@
 #include <string.h>
 
 
-/Copia a string str1 para a str2 sem o ultimo caractere/
+//Copia a string str1 para a str2 sem o ultimo caractere/
 
 void copyString(char *str1, char*str2) {
 
@@ -26,7 +26,10 @@ int main () {
 
 	FILE *fp1, *fp2;
 
-	char nomeArquivo[30], nomeArquivoNovo[30], string_lida[100], aux[100]; 
+	char nomeArquivo[30];
+	char nomeArquivoNovo[30];
+	char string_lida[100];
+	char aux[100];
 
 	int cod, flag=0;
 
