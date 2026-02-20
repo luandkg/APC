@@ -14,7 +14,7 @@
 #include <math.h>
 
 
-int main(void) {
+int ATIVIDADE_01_06(void) {
 
 	printf("--------- NOTAS --------------\n");
 

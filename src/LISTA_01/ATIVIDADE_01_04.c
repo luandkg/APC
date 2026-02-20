@@ -14,7 +14,7 @@
 #include <math.h>
 
 
-int main(void) {
+int ATIVIDADE_01_04(void) {
 
 	printf("--------- EQUACAO DE SEGUNDO GRAU --------------\n");
 

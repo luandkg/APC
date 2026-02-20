@@ -13,7 +13,7 @@
 #include <stdio.h>
 
 
-int main(void) {
+int ATIVIDADE_01_03(void) {
 
 	const float PI = 3.14;
 

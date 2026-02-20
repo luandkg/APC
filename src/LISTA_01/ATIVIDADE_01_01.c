@@ -4,15 +4,15 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- DESCRICAO 		: LISTA DE EXERCICIOS 01 - QUESTAO 01 -- Ansi-style
- LISTA			: 01
- QUESTAO		: 01
+ DESCRICAO 			: LISTA DE EXERCICIOS 01 - QUESTAO 01 -- Ansi-style
+ LISTA				: 01
+ QUESTAO			: 01
  ============================================================================
  */
 
 #include <stdio.h>
 
-int main(void) {
+int ATIVIDADE_01_01(void) {
 
 	float a, b =0;
 

@@ -12,7 +12,7 @@
 
 #include <stdio.h>
 
-int main(void) {
+int ATIVIDADE_01_02(void) {
 
 	float a, b =0;
 
