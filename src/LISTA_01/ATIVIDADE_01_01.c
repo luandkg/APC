@@ -77,3 +77,18 @@ int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_02() {
 	}
 	
 }
+
+int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_03() {
+
+	int a = 50;
+	int b = 10;
+
+	trocar_valor(&a,&b);
+		
+	if(a==10 && b==50){
+		return 0;
+	}else{
+		return 1;
+	}
+	
+}
