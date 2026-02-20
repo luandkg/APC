@@ -12,32 +12,68 @@
 
 #include <stdio.h>
 
+void trocar_valor(int *a,int *b);
+
 int ATIVIDADE_01_01(void) {
 
-	float a, b =0;
+	int a, b =0;
 
 	printf("--------- TROCA DE VALORES --------------\n");
 
 	printf("Informe o numero A : ");
 
-	scanf("%f",&a);
+	scanf("%d",&a);
 
 	printf("Informe o numero B : ");
 
-	scanf("%f",&b);
+	scanf("%d",&b);
 
+	trocar_valor(&a,&b);
 
-	float auxilador = 0 ;
-
-	auxilador = a;
-
-	a=b;
-	b=auxilador;
-
-	printf("Numero A = %f\n", a);
-	printf("Numero B = %f\n", b);
-
+	printf("Numero A = %d\n", a);
+	printf("Numero B = %d\n", b);
 
 
 	return 0;
+}
+
+void trocar_valor(int *a,int *b){
+
+	int auxilador = 0 ;
+
+	auxilador = *a;
+
+	*a=*b;
+	*b=auxilador;
+
+}
+
+int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_01() {
+
+	int a = 5;
+	int b = 10;
+
+	trocar_valor(&a,&b);
+
+	if(a==10 && b==5){
+		return 0;
+	}else{
+		return 1;
+	}
+	
+}
+
+int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_02() {
+
+	int a = 100;
+	int b = 3;
+
+	trocar_valor(&a,&b);
+		
+	if(a==3 && b==100){
+		return 0;
+	}else{
+		return 1;
+	}
+	
 }

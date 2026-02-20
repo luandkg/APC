@@ -57,7 +57,7 @@ int ATIVIDADE_01_06(void) {
 	notafinal = ( (nota1*peso1) + (nota2*peso2) + (nota3*peso3)  ) / ( peso1 + peso2 + peso3 );
 
 
-		printf("------------------------------\n");
+	printf("------------------------------\n");
 
 	printf("NOTA FINAL = %.2f\n", notafinal);
 

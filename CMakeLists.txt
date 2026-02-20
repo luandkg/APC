@@ -1,33 +1,26 @@
 cmake_minimum_required(VERSION 3.10)
-
 project(APC LANGUAGES C)
 
+# Função auxiliar para criar executáveis de atividades
+function(add_atividade nome macro)
+    add_executable(${nome} src/main.c src/TESTE/TESTE.c)  # inclui teste.c em todos
+    target_compile_definitions(${nome} PRIVATE MAIN=${macro})
+    target_link_libraries(${nome} m) # sempre linka com math
+endfunction()
 
-add_executable(testes src/main.c)
-target_compile_definitions(testes PRIVATE MAIN=TESTES)
-target_link_libraries(testes m)
+# Lista de atividades
+set(ATIVIDADES
+    TESTES
+    ATIVIDADE_01_01
+    ATIVIDADE_01_02
+    ATIVIDADE_01_03
+    ATIVIDADE_01_04
+    ATIVIDADE_01_05
+    ATIVIDADE_01_06
+)
 
-## LISTA 1
-add_executable(atividade_01_01 src/main.c)
-target_link_libraries(atividade_01_01 m)
-target_compile_definitions(atividade_01_01 PRIVATE MAIN=ATIVIDADE_01_01)
-
-add_executable(atividade_01_02 src/main.c)
-target_link_libraries(atividade_01_02 m)
-target_compile_definitions(atividade_01_02 PRIVATE MAIN=ATIVIDADE_01_02)
-
-add_executable(atividade_01_03 src/main.c)
-target_link_libraries(atividade_01_03 m)
-target_compile_definitions(atividade_01_03 PRIVATE MAIN=ATIVIDADE_01_03)
-
-add_executable(atividade_01_04 src/main.c)
-target_link_libraries(atividade_01_04 m)
-target_compile_definitions(atividade_01_04 PRIVATE MAIN=ATIVIDADE_01_04)
-
-add_executable(atividade_01_05 src/main.c)
-target_link_libraries(atividade_01_05 m)
-target_compile_definitions(atividade_01_05 PRIVATE MAIN=ATIVIDADE_01_05)
-
-add_executable(atividade_01_06 src/main.c)
-target_link_libraries(atividade_01_06 m)
-target_compile_definitions(atividade_01_06 PRIVATE MAIN=ATIVIDADE_01_06)
+# Cria todos os executáveis automaticamente
+foreach(ATV ${ATIVIDADES})
+    string(TOLOWER ${ATV} NOME_EXECUTAVEL) 
+    add_atividade(${NOME_EXECUTAVEL} ${ATV})
+endforeach()

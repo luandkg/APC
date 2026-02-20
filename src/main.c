@@ -1,9 +1,6 @@
-#include "LISTA_01/ATIVIDADE_01_01.c"
-#include "LISTA_01/ATIVIDADE_01_02.c"
-#include "LISTA_01/ATIVIDADE_01_03.c"
-#include "LISTA_01/ATIVIDADE_01_04.c"
-#include "LISTA_01/ATIVIDADE_01_05.c"
-#include "LISTA_01/ATIVIDADE_01_06.c"
+#include "LISTA_01/ATIVIDADE_01.c"
+#include "TESTE/TESTE.h"
+
 
 
 int TESTES(void);
@@ -13,7 +10,19 @@ int main(){
     return MAIN();
 }
 
+
+
+
 int TESTES(void){
+
+    printf("---------------------------------------------- TESTES UNITÁRIOS x -----------------------------------------\n");
+    printf("\n");
+
+    int resultado = 0;
+
+    resultado+=ATIVIDADE_01_TESTES();
+
+    printf("\n");
 
     return 0;
 }
