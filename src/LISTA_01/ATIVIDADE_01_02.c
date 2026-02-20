@@ -12,6 +12,8 @@
 
 #include <stdio.h>
 
+float calcular_media(float a, float b);
+
 int ATIVIDADE_01_02(void) {
 
 	float a, b =0;
@@ -26,13 +28,65 @@ int ATIVIDADE_01_02(void) {
 
 	scanf("%f",&b);
 
-
-	float media = (a + b ) / 2;
-
+	float media = calcular_media(a,b);
 
 	printf("A Media eh = %f\n", media);
 
 
 
 	return 0;
+}
+
+float calcular_media(float a, float b){
+	float media = (a + b ) / 2;
+	return media;
+}
+
+int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_01() {
+
+	
+	float a = 10.0;
+	float b = 5.0;
+
+	float media = calcular_media(a,b);
+
+	if(media==7.5){
+		return 0;
+	}else{
+		return 1;
+	}
+	
+}
+
+
+int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_02() {
+
+	
+	float a = 8;
+	float b = 6;
+
+	float media = calcular_media(a,b);
+
+	if(media==7.0){
+		return 0;
+	}else{
+		return 1;
+	}
+	
+}
+
+int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_03() {
+
+	
+	float a = 6.3;
+	float b = 4.2;
+
+	float media = calcular_media(a,b);
+
+	if(media==5.25){
+		return 0;
+	}else{
+		return 1;
+	}
+	
 }
