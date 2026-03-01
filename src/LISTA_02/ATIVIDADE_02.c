@@ -54,6 +54,11 @@ int ATIVIDADE_02_TESTES(void){
     resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 05 - POLUIÇÃO                     :: 05",ATIVIDADE_02_05_TESTE_POLUICAO_TESTE_5());
     resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 05 - POLUIÇÃO                     :: 06",ATIVIDADE_02_05_TESTE_POLUICAO_TESTE_6());
 
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 06 - TRIÂNGULO                    :: 01",ATIVIDADE_02_06_TESTE_TRIANGULO_TESTE_1());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 06 - TRIÂNGULO                    :: 02",ATIVIDADE_02_06_TESTE_TRIANGULO_TESTE_2());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 06 - TRIÂNGULO                    :: 03",ATIVIDADE_02_06_TESTE_TRIANGULO_TESTE_3());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 06 - TRIÂNGULO                    :: 04",ATIVIDADE_02_06_TESTE_TRIANGULO_TESTE_4());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 06 - TRIÂNGULO                    :: 05",ATIVIDADE_02_06_TESTE_TRIANGULO_TESTE_5());
 
     
     return resultado;
