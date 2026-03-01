@@ -10,8 +10,7 @@
  ============================================================================
  */
 
-#include <stdio.h>
-#include <math.h>
+#include "ATIVIDADE_01_04.h"
 
 
 int ATIVIDADE_01_04(void) {

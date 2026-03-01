@@ -10,9 +10,8 @@
  ============================================================================
  */
 
-#include <stdio.h>
+#include "ATIVIDADE_01_02.h"
 
-float calcular_media(float a, float b);
 
 int ATIVIDADE_01_02(void) {
 
@@ -42,7 +41,7 @@ float calcular_media(float a, float b){
 	return media;
 }
 
-int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_01() {
+int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_01(void) {
 
 	
 	float a = 10.0;
@@ -59,7 +58,7 @@ int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_01() {
 }
 
 
-int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_02() {
+int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_02(void) {
 
 	
 	float a = 8;
@@ -75,7 +74,7 @@ int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_02() {
 	
 }
 
-int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_03() {
+int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_03(void) {
 
 	
 	float a = 6.3;

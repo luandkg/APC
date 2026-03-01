@@ -1,10 +1,4 @@
-#include "ATIVIDADE_01_01.c"
-#include "ATIVIDADE_01_02.c"
-#include "ATIVIDADE_01_03.c"
-#include "ATIVIDADE_01_04.c"
-#include "ATIVIDADE_01_05.c"
-#include "ATIVIDADE_01_06.c"
-#include "../TESTE/TESTE.h"
+#include "ATIVIDADE_01.h"
 
 
 int ATIVIDADE_01_TESTES(void){

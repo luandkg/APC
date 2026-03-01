@@ -1,0 +1,9 @@
+
+#include <stdio.h>
+
+void trocar_valor(int *a,int *b);
+int ATIVIDADE_01_01(void);
+
+int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_01();
+int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_02();
+int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_03();

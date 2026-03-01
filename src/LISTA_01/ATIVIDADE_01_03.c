@@ -10,7 +10,7 @@
  ============================================================================
  */
 
-#include <stdio.h>
+#include "ATIVIDADE_01_03.h"
 
 float cilindro_volume(float raio,float altura){
 	const float PI = 3.14;
@@ -79,8 +79,8 @@ int ATIVIDADE_01_03_TESTE_CALCULAR_CILINDO_VOLUME_03() {
 	float altura = 12;
 
 	float volume = cilindro_volume(raio,altura);
-
-	if(volume==942.0){
+	                                   
+		if(volume==942.0){
 		return 0;
 	}else{
 		return 1;
