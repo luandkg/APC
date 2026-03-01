@@ -30,5 +30,16 @@ int TESTES(void){
 
     printf("\n");
 
-    return 0;
+    if (resultado == 0) {
+        printf(">> TODOS OS TESTES PASSARAM\n");
+    } else {
+        if (resultado == 1){
+            printf(">> PROBLEMA - %d TESTE FALHOU\n", resultado);
+        }else{
+            printf(">> PROBLEMA - %d TESTES FALHARAM\n", resultado);
+        }
+    }
+
+
+    return resultado;
 }

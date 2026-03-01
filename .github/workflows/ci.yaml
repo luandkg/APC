@@ -1,0 +1,33 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout do código
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Instalar dependências (CMake e compilador)
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y cmake build-essential
+
+      # 3. Configurar CMake
+      - name: Configure CMake
+        run: cmake -S . -B build
+
+      # 4. Compilar
+      - name: Build
+        run: cmake --build build
+
+      # 5. Executar testes
+      - name: Run tests
+        run: |
+          ./build/testes
