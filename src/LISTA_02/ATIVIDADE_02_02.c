@@ -46,7 +46,7 @@ int inteiro_maior(int a,int b){
 }
 
 
-int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_1(){
+int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_1(void){
 
 	if(inteiro_maior(5,3)){
 		return TESTE_SUCESSO;
@@ -56,7 +56,7 @@ int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_1(){
 
 }
 
-int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_2(){
+int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_2(void){
 
 	if(!inteiro_maior(1,4)){
 		return TESTE_SUCESSO;
@@ -65,7 +65,7 @@ int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_2(){
 	}
 }
 
-int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_3(){
+int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_3(void){
 	if(inteiro_maior(200,100)){
 		return TESTE_SUCESSO;
 	}else{
