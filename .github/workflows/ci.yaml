@@ -40,5 +40,8 @@ jobs:
           name: compiled-build
           path: build
 
+      - name: Grant execute permission 
+        run: chmod +x ./build/testes
+
       - name: Run tests
         run: ./build/testes
