@@ -2,11 +2,11 @@
  ESTUDANTE      : Luan Alves Freitas
  MATRICULA     	: 17.0003191
  Copyright   	: FREITAS @ COPYRIGHTS
- CURSO		: COMPUTACAO
- TURNO		: NOTURNO
- DISCIPLINA	: APC - Algoritmos de Programacao de Computadores
- LISTA		: 04
- QUESTAO	: 05
+ CURSO			: COMPUTACAO
+ TURNO			: NOTURNO
+ DISCIPLINA		: APC - Algoritmos de Programacao de Computadores
+ LISTA			: 04
+ QUESTAO		: 05
  ============================================================================ */
 
 

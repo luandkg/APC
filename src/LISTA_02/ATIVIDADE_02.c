@@ -45,6 +45,16 @@ int ATIVIDADE_02_TESTES(void){
     resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 04 - QUADRADO Y LINHA             :: 01",ATIVIDADE_02_04_TESTE_Y_LINHA_TESTE_1());
     resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 04 - QUADRADO Y LINHA             :: 02",ATIVIDADE_02_04_TESTE_Y_LINHA_TESTE_2());
     resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 04 - QUADRADO Y LINHA             :: 03",ATIVIDADE_02_04_TESTE_Y_LINHA_TESTE_3());
+   
+   
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 05 - POLUIÇÃO                     :: 01",ATIVIDADE_02_05_TESTE_POLUICAO_TESTE_1());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 05 - POLUIÇÃO                     :: 02",ATIVIDADE_02_05_TESTE_POLUICAO_TESTE_2());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 05 - POLUIÇÃO                     :: 03",ATIVIDADE_02_05_TESTE_POLUICAO_TESTE_3());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 05 - POLUIÇÃO                     :: 04",ATIVIDADE_02_05_TESTE_POLUICAO_TESTE_4());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 05 - POLUIÇÃO                     :: 05",ATIVIDADE_02_05_TESTE_POLUICAO_TESTE_5());
+    resultado+=VALIDAR("LISTA 02 :: ATIVIDADE 05 - POLUIÇÃO                     :: 06",ATIVIDADE_02_05_TESTE_POLUICAO_TESTE_6());
 
+
+    
     return resultado;
 }
