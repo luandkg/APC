@@ -3,14 +3,14 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- LISTA			: 02
- QUESTAO		: 06
+ LISTA				: 02
+ QUESTAO			: 06
  ============================================================================ */
 
-#include <stdio.h>
-#include <math.h>
+#include "ATIVIDADE_02_06.h"
 
-int main () {
+
+int ATIVIDADE_02_06 (void) {
 
 	printf("\n	### PROBLEMA DO TRIANGULO ###		\n\n");
 

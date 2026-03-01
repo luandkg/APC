@@ -4,15 +4,15 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- LISTA			: 02
- QUESTAO		: 05
+ LISTA				: 02
+ QUESTAO			: 05
  ============================================================================
  */
 
-#include <stdio.h>
-#include <math.h>
+#include "ATIVIDADE_02_05.h"
 
-int main () {
+
+int ATIVIDADE_02_05 (void) {
 
 	printf("	### PROBLEMA DO MEIO AMBIENTE ###		\n");
 

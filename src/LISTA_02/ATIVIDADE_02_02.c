@@ -5,15 +5,15 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- LISTA			: 02
- QUESTAO		: 02
+ LISTA				: 02
+ QUESTAO			: 02
  ============================================================================
  */
 
 
-#include <stdio.h>
+#include "ATIVIDADE_02_02.h"
 
-int main () {
+int ATIVIDADE_02_02 (void) {
 
 	printf("--------- MAIOR VALOR --------------\n");
 

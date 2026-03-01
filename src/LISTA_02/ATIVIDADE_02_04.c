@@ -4,15 +4,15 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- LISTA			: 02
- QUESTAO		: 04
+ LISTA				: 02
+ QUESTAO			: 04
  ============================================================================
  */
 
-#include <stdio.h>
-#include <math.h>
+#include "ATIVIDADE_02_04.h"
 
-int main () {
+
+int ATIVIDADE_02_04 (void) {
 
 	printf("	### PROBLEMA DO ESPACO ###		\n");
 

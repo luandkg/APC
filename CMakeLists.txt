@@ -2,12 +2,14 @@ cmake_minimum_required(VERSION 3.10)
 project(APC LANGUAGES C)
 
 file(GLOB LISTA01_SOURCES src/LISTA_01/*.c)
+file(GLOB LISTA02_SOURCES src/LISTA_02/*.c)
 
 function(add_atividade nome macro)
     add_executable(
         ${nome}
         src/main.c
         ${LISTA01_SOURCES}
+        ${LISTA02_SOURCES}
         src/TESTE/TESTE.c
     )
     target_compile_definitions(${nome} PRIVATE MAIN=${macro})
@@ -25,6 +27,13 @@ set(
     ATIVIDADE_01_04
     ATIVIDADE_01_05
     ATIVIDADE_01_06
+
+    ATIVIDADE_02_01
+    ATIVIDADE_02_02
+    ATIVIDADE_02_03
+    ATIVIDADE_02_04
+    ATIVIDADE_02_05
+    ATIVIDADE_02_06
 )
 
 # Cria todos os executáveis automaticamente

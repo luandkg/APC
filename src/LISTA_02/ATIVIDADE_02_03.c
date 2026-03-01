@@ -6,15 +6,15 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- LISTA			: 02
- QUESTAO		: 03
+ LISTA				: 02
+ QUESTAO			: 03
  ============================================================================
  */
 
-#include <stdio.h>
-#include <math.h>
+#include "ATIVIDADE_02_03.h"
 
-int main () {
+
+int ATIVIDADE_02_03 (void) {
 
 	printf("	### EQUACAO DE SEGUNDO GRAU ###		\n");
 
