@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../TESTE/TESTE.h"
 
 int ATIVIDADE_02_01 (void);
 

@@ -22,12 +22,12 @@ int ATIVIDADE_02_02 (void) {
 	scanf("%d",&a);
 	printf("Informe o 2º valor : ");
 	scanf("%d",&b);
-	if  (a==b) {
+	if  (inteiro_igual(a,b)) {
 		printf ("numeros iguais : %d\n",a);
 	}
 	else {
 		
-		if (a>b) { 
+		if (inteiro_maior(a,b)) { 
 			printf("Maior Numero : %d\n", a); 
 		} else {
 			printf("Maior Numero : %d\n", b); 
@@ -36,4 +36,39 @@ int ATIVIDADE_02_02 (void) {
 	}
 
 	return(0);
+}
+
+
+
+
+int inteiro_maior(int a,int b){
+	return a>b;
+}
+
+
+int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_1(){
+
+	if(inteiro_maior(5,3)){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
+
+}
+
+int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_2(){
+
+	if(!inteiro_maior(1,4)){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
+}
+
+int ATIVIDADE_02_02_TESTE_MAIOR_TESTE_3(){
+	if(inteiro_maior(200,100)){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
 }
