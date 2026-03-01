@@ -4,9 +4,9 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- DESCRICAO 		: LISTA DE EXERCICIOS 01 - QUESTAO 04 -- Ansi-style
- LISTA			: 01
- QUESTAO		: 04
+ DESCRICAO 			: LISTA DE EXERCICIOS 01 - QUESTAO 04 -- Ansi-style
+ LISTA				: 01
+ QUESTAO			: 04
  ============================================================================
  */
 
