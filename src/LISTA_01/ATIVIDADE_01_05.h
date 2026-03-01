@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include "../TESTE/TESTE.h"
 
 int ATIVIDADE_01_05(void);
 

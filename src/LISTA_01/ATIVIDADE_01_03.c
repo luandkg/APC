@@ -48,9 +48,9 @@ int ATIVIDADE_01_03_TESTE_CALCULAR_CILINDO_VOLUME_01() {
 	float volume = cilindro_volume(raio,altura);
 
 	if(volume==9420.0){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -65,9 +65,9 @@ int ATIVIDADE_01_03_TESTE_CALCULAR_CILINDO_VOLUME_02() {
 	float volume = cilindro_volume(raio,altura);
 
 	if(volume==226080.0){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -80,10 +80,10 @@ int ATIVIDADE_01_03_TESTE_CALCULAR_CILINDO_VOLUME_03() {
 
 	float volume = cilindro_volume(raio,altura);
 	                                   
-		if(volume==942.0){
-		return 0;
+	if(volume==942.0){
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }

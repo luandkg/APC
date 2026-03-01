@@ -71,10 +71,10 @@ int ATIVIDADE_01_04_TESTE_EQUACAO_SEGUNDO_GRAU_X1_TESTE_01() {
 	
 	float x1 = equacao_segundo_grau_x1(1,-5,6);
 	                                   
-		if(x1==3.000000){
-		return 0;
+	if(x1==3.000000){
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -85,10 +85,10 @@ int ATIVIDADE_01_04_TESTE_EQUACAO_SEGUNDO_GRAU_X2_TESTE_01() {
 	
 	float x2 = equacao_segundo_grau_x2(1,-5,6);
 	                                   
-		if(x2==2.000000){
-		return 0;
+	if(x2==2.000000){
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -98,10 +98,10 @@ int ATIVIDADE_01_04_TESTE_EQUACAO_SEGUNDO_GRAU_X1_TESTE_02() {
 	
 	float x1 = equacao_segundo_grau_x1(1,-7,12);
 	                                   
-		if(x1==4.000000){
-		return 0;
+	if(x1==4.000000){
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -112,9 +112,9 @@ int ATIVIDADE_01_04_TESTE_EQUACAO_SEGUNDO_GRAU_X2_TESTE_02() {
 	
 	float x2 = equacao_segundo_grau_x2(1,-7,12);                       
 	if(x2==3.000000){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -124,10 +124,10 @@ int ATIVIDADE_01_04_TESTE_EQUACAO_SEGUNDO_GRAU_X1_TESTE_03() {
 	
 	float x1 = equacao_segundo_grau_x1(1,-9,20);
 	                                   
-		if(x1==5.000000){
-		return 0;
+	if(x1==5.000000){
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -138,10 +138,10 @@ int ATIVIDADE_01_04_TESTE_EQUACAO_SEGUNDO_GRAU_X2_TESTE_03() {
 	
 	float x2 = equacao_segundo_grau_x2(1,-9,20);
 	                                   
-		if(x2==4.000000){
-		return 0;
+	if(x2==4.000000){
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }

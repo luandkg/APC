@@ -55,9 +55,9 @@ int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_01() {
 	trocar_valor(&a,&b);
 
 	if(a==10 && b==5){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -70,9 +70,9 @@ int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_02() {
 	trocar_valor(&a,&b);
 		
 	if(a==3 && b==100){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }
@@ -85,9 +85,9 @@ int ATIVIDADE_01_01_TESTE_01_TROCAR_VALOR_TESTE_03() {
 	trocar_valor(&a,&b);
 		
 	if(a==10 && b==50){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 	
 }

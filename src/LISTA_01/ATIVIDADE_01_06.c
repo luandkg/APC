@@ -70,26 +70,26 @@ int ATIVIDADE_01_06_TESTE_CALCULA_NOTA_MEDIA_PONDERADA_TESTE_01(void) {
 
 	float nota = calcular_media_ponderada(2,30,5,30,10,40);                       
 	if((int)nota==6){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 }
 
 int ATIVIDADE_01_06_TESTE_CALCULA_NOTA_MEDIA_PONDERADA_TESTE_02(void) {
 	float nota = calcular_media_ponderada(5,30,10,30,8,40);                       
 	if((int)nota==7){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 }
 
 int ATIVIDADE_01_06_TESTE_CALCULA_NOTA_MEDIA_PONDERADA_TESTE_03(void) {
 	float nota = calcular_media_ponderada(1,30,2,30,4,40);                       
 	if((int)nota==2){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 }

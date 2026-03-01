@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include "../TESTE/TESTE.h"
 
 int ATIVIDADE_01_06(void);
 float calcular_media_ponderada(float nota1,int peso1,float nota2,int peso2,float nota3,int peso3);

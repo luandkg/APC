@@ -50,7 +50,7 @@ int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_01(void) {
 	float media = calcular_media(a,b);
 
 	if(media==7.5){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
 		return 1;
 	}
@@ -67,7 +67,7 @@ int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_02(void) {
 	float media = calcular_media(a,b);
 
 	if(media==7.0){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
 		return 1;
 	}
@@ -83,7 +83,7 @@ int ATIVIDADE_01_02_TESTE_CALCULAR_MEDIA_03(void) {
 	float media = calcular_media(a,b);
 
 	if(media==5.25){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
 		return 1;
 	}

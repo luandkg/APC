@@ -45,9 +45,9 @@ int ATIVIDADE_01_05_TESTE_CALCULA_HIPOTENUSA_TESTE_01(void) {
 
 	float hipotenusa = calcular_hipotenusa(2,5);                       
 	if((int)hipotenusa==5){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 
 }
@@ -56,9 +56,9 @@ int ATIVIDADE_01_05_TESTE_CALCULA_HIPOTENUSA_TESTE_02(void) {
 
 	float hipotenusa = calcular_hipotenusa(10,3);                       
 	if((int)hipotenusa==10){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 
 }
@@ -67,8 +67,8 @@ int ATIVIDADE_01_05_TESTE_CALCULA_HIPOTENUSA_TESTE_03(void) {
 
 	float hipotenusa = calcular_hipotenusa(5,5);                       
 	if((int)hipotenusa==7){
-		return 0;
+		return TESTE_SUCESSO;
 	}else{
-		return 1;
+		return TESTE_FALHOU;
 	}
 }

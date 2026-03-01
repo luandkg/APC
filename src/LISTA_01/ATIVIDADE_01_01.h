@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include "../TESTE/TESTE.h"
 
 void trocar_valor(int *a,int *b);
 int ATIVIDADE_01_01(void);

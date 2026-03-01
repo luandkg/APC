@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include "../TESTE/TESTE.h"
 
 float calcular_media(float a, float b);
 int ATIVIDADE_01_02(void);
