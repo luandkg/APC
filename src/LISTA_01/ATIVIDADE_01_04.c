@@ -110,9 +110,8 @@ int ATIVIDADE_01_04_TESTE_EQUACAO_SEGUNDO_GRAU_X1_TESTE_02() {
 int ATIVIDADE_01_04_TESTE_EQUACAO_SEGUNDO_GRAU_X2_TESTE_02() {
 
 	
-	float x2 = equacao_segundo_grau_x2(1,-7,12);
-	                                   
-		if(x2==3.000000){
+	float x2 = equacao_segundo_grau_x2(1,-7,12);                       
+	if(x2==3.000000){
 		return 0;
 	}else{
 		return 1;
