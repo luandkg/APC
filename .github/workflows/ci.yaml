@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  Configuração:
+  Configuracao:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -19,9 +19,9 @@ jobs:
       - name: Configure CMake
         run: cmake -S . -B build
 
-  Compilação:
+  Compilacao:
     runs-on: ubuntu-latest
-    needs: Configuração
+    needs: Configuracao
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,7 +31,7 @@ jobs:
 
   Testes:
     runs-on: ubuntu-latest
-    needs: Compilação
+    needs: Compilacao
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
