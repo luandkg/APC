@@ -8,7 +8,7 @@
  QUESTAO			: 01
  ============================================================================ */
 
-#include <stdio.h>
+#include "ATIVIDADE_03_01.h"
 
 /* Descricao: programa para imprimir os numeros de 1 a 10. Entrada: nao tem. Saida: 1,2,3,...,10  */
 
@@ -26,3 +26,43 @@ int ATIVIDADE_03_01 (void) {
 
 }
 
+int contagem(int inicio,int fim){
+
+	int contado = 0;
+
+	for (int i=inicio;i<=fim;i++) {
+		contado+=1;
+	}
+
+	return contado;
+}
+
+int ATIVIDADE_03_01_TESTE_CONTAGEM_TESTE_1(void){
+
+	if(contagem(1,10) == 10){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
+
+}
+
+int ATIVIDADE_03_01_TESTE_CONTAGEM_TESTE_2(void){
+
+	if(contagem(21,40) == 20){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
+
+}
+
+int ATIVIDADE_03_01_TESTE_CONTAGEM_TESTE_3(void){
+
+	if(contagem(1,50) == 50){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
+
+}
