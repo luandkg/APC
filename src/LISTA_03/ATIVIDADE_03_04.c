@@ -3,8 +3,9 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- LISTA			: 03
- QUESTAO		: 03
+ DISCIPLINA		: APC - Algoritmos de Programacao de Computadores
+ LISTA				: 03
+ QUESTAO			: 03
  ============================================================================ */
 
 #include <stdio.h>

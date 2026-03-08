@@ -2,9 +2,10 @@
  ALGORITMO      : AP3_EX1.c
  ESTUDANTE      : Luan Alves Freitas
  MATRICULA     	: 17.0003191
- Copyright   		: FREITAS @ COPYRIGHTS
- LISTA					: 03
- QUESTAO				: 06
+ Copyright   	: FREITAS @ COPYRIGHTS
+ DISCIPLINA		: APC - Algoritmos de Programacao de Computadores
+ LISTA			: 03
+ QUESTAO		: 06
  ============================================================================ */
 
 #include <stdio.h>
