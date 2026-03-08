@@ -3,12 +3,12 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- DISCIPLINA		: APC - Algoritmos de Programacao de Computadores
+ DISCIPLINA			: APC - Algoritmos de Programacao de Computadores
  LISTA				: 03
  QUESTAO			: 03
  ============================================================================ */
 
-#include <stdio.h>
+#include "ATIVIDADE_03_03.h"
 
 int ATIVIDADE_03_03 (void) {
 
@@ -37,3 +37,41 @@ int ATIVIDADE_03_03 (void) {
 
 }
 
+int ATIVIDADE_03_03_TESTE_MEDIA_DE_IDADES_TESTE_1(void){
+
+	float idade_somatorio = 10+15;
+	float idade_media = idade_somatorio/2;
+
+	if(idade_media==12.500000){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
+
+}
+
+int ATIVIDADE_03_03_TESTE_MEDIA_DE_IDADES_TESTE_2(void){
+
+	float idade_somatorio = 10+15+32;
+	float idade_media = idade_somatorio/3;
+
+	if(idade_media==19.000000){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
+
+}
+
+int ATIVIDADE_03_03_TESTE_MEDIA_DE_IDADES_TESTE_3(void){
+
+	float idade_somatorio = 10+15+30+62;
+	float idade_media = idade_somatorio/4;
+
+	if(idade_media==29.250000){
+		return TESTE_SUCESSO;
+	}else{
+		return TESTE_FALHOU;
+	}
+
+}
