@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-int main () {
+int ATIVIDADE_03_07 (void) {
 
 	int i = 0, j = 0, times = 8, jogadores = 12,codigo = 0, idade = 0;
 	float altura = 0.0, peso = 0.0;

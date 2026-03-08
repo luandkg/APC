@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-int main () {
+int ATIVIDADE_03_04 (void) {
 
 	int i = 0, o = 0;
 	

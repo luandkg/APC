@@ -3,6 +3,7 @@ project(APC LANGUAGES C)
 
 file(GLOB LISTA01_SOURCES src/LISTA_01/*.c)
 file(GLOB LISTA02_SOURCES src/LISTA_02/*.c)
+file(GLOB LISTA03_SOURCES src/LISTA_03/*.c)
 
 function(add_atividade nome macro)
     add_executable(
@@ -10,6 +11,7 @@ function(add_atividade nome macro)
         src/main.c
         ${LISTA01_SOURCES}
         ${LISTA02_SOURCES}
+        ${LISTA03_SOURCES}
         src/TESTE/TESTE.c
     )
     target_compile_definitions(${nome} PRIVATE MAIN=${macro})
@@ -34,6 +36,15 @@ set(
     ATIVIDADE_02_04
     ATIVIDADE_02_05
     ATIVIDADE_02_06
+
+    ATIVIDADE_03_01
+    ATIVIDADE_03_02
+    ATIVIDADE_03_03
+    ATIVIDADE_03_04
+    ATIVIDADE_03_05
+    ATIVIDADE_03_06
+    ATIVIDADE_03_07
+    
 )
 
 # Cria todos os executáveis automaticamente

@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-int main () {
+int ATIVIDADE_03_06 (void) {
 
 	int i = 0,codigo =0, qtd_alunos = 0;
 	float nota_1, nota_2, nota_3, media_nota;

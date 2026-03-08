@@ -3,7 +3,7 @@
  ESTUDANTE      	: Luan Alves Freitas
  MATRICULA     		: 17.0003191
  Copyright   		: FREITAS @ COPYRIGHTS
- DISCIPLINA		: APC - Algoritmos de Programacao de Computadores
+ DISCIPLINA			: APC - Algoritmos de Programacao de Computadores
  LISTA				: 03
  QUESTAO			: 01
  ============================================================================ */
@@ -12,17 +12,15 @@
 
 /* Descricao: programa para imprimir os numeros de 1 a 10. Entrada: nao tem. Saida: 1,2,3,...,10  */
 
-int main () {
+int ATIVIDADE_03_01 (void) {
 
 	int i;
-	printf("Os numeros de 1 a 10 sao: ");
+	printf("Os numeros de 1 a 10 sao : \n");
 	
 	for (i=1;i<=10;i++) {
-		printf("\n %d ",i);
-		getchar();
+		printf("%d\n",i);
+		//getchar();
 	}
-
-	
 
 	return 0;
 

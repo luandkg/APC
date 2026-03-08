@@ -1,5 +1,6 @@
 #include "LISTA_01/ATIVIDADE_01.h"
 #include "LISTA_02/ATIVIDADE_02.h"
+#include "LISTA_03/ATIVIDADE_03.h"
 
 #include "TESTE/TESTE.h"
 
@@ -27,6 +28,9 @@ int TESTES(void){
 
     printf("LISTA 02\n");
     resultado+=ATIVIDADE_02_TESTES();
+
+    printf("LISTA 03\n");
+    resultado+=ATIVIDADE_03_TESTES();
 
     printf("\n");
 

@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 
-int main () {
+int ATIVIDADE_03_05 (void) {
 
 	int i = 0;
 	int qtd_atletas = 10 , codigo = 0 , altura = 0 ;
